@@ -103,10 +103,10 @@ MLFlow Result Comparison Screenshot
 ![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/mlflowresult.png "Comparison Result")
 
 ## Result RMSE:
-### Naive Forecast          : 107.8 IDR
-### Closing Price 100 Epoch : 118.3 IDR
-### Multiple Features       : 140.1 IDR
-### Closing Price 200 Epoch : 113.2 IDR
+#### Naive Forecast          : 107.8 IDR
+#### Closing Price 100 Epoch : 118.3 IDR
+#### Multiple Features       : 140.1 IDR
+#### Closing Price 200 Epoch : 113.2 IDR
 
 ## Things to Improve
 
