@@ -20,7 +20,7 @@ This project implements a time series forecasting pipeline using an LSTM (Long S
 
 ## Features Used
    Main Feature:
-- **BMRI.JK Closing Price**
+   - **BMRI.JK Closing Price**
 
    Side Features (Not shown in the result because they worsen the model performance):
    - Volume
