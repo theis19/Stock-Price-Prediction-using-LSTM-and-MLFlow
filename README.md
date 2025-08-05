@@ -62,11 +62,11 @@ mlflow ui
 ```
 Access at: [http://localhost:5000](http://localhost:5000)
 
-## 🧪 Baseline Comparison
+## Baseline Comparison
 
 A naive forecast (predicting next day's price as today’s) was used as a baseline. Results were compared using MAE and RMSE to assess the value of the LSTM model.
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - **MAE** (Mean Absolute Error)
 - **RMSE** (Root Mean Squared Error)
@@ -74,6 +74,15 @@ A naive forecast (predicting next day's price as today’s) was used as a baseli
 - **MAE Percentage** (relative to mean actual price)
 
 These metrics are logged and plotted after every experiment.
+
+## Result
+Naive Forecast            |  Closing Price
+:-------------------------:|:-------------------------:
+![](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_naive.png)  |  ![]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close100.png))
+
+Multiple Features         |  Closing Price with 200 Epochs
+:-------------------------:|:-------------------------:
+![]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_addfeature.png))  |  ![](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close200.png)
 
 
 ## ✅ How to Run
