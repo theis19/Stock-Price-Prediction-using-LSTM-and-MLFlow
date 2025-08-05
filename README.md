@@ -102,8 +102,23 @@ MLFlow Features Screenshot
 MLFlow Result Comparison Screenshot
 ![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/mlflowresult.png "Comparison Result")
 
+## Result RMSE:
+### Naive Forecast          : 107.8 IDR
+### Closing Price 100 Epoch : 118.3 IDR
+### Multiple Features       : 140.1 IDR
+### Closing Price 200 Epoch : 113.2 IDR
 
-## ✅ How to Run
+## Things to Improve
+
+This project focuses on building a working LSTM-based stock prediction model with basic experiment tracking. Given more time, several improvements could be made:
+
+- **Hyperparameter Tuning**: Current settings were chosen manually. Optimization could improve results.
+- **Model Comparison**: Other models like GRU, CNN, or XGBoost could be evaluated.
+- **Cross-Validation**: The evaluation is based on a single split; time series cross-validation would be more robust.
+- **Multi-step Prediction**: Currently only next-day forecasting is supported — multi-day prediction could be explored.
+- **Feature Exploration**: Feature selection and more external features (e.g., market indicators) may enhance performance.
+
+## How to Run
 
 1. Install dependencies:
    ```bash
