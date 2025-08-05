@@ -100,7 +100,7 @@ MLFlow Features Screenshot
 ![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/features.png "Features")
 
 MLFlow Result Comparison Screenshot
-![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/result.png "Comparison Result")
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/mlflowresult.png "Comparison Result")
 
 
 ## ✅ How to Run
