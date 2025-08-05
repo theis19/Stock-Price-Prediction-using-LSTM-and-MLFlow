@@ -30,6 +30,16 @@ This project implements a time series forecasting pipeline using an LSTM (Long S
    - MA20
    - BBNI, BBCA, BBRI Price Change as a part of 4 Big Banks
 
+## Main Workflow
+   1. Fetch historical stock data for BMRI.JK (10 years) using yfinance.
+   2. Clean the data by removing missing values.
+   3. Split the dataset into training (80%) and testing (20%) sets based on time.
+   4. Normalize the training data using MinMaxScaler (to avoid data leakage).
+   5. Generate input sequences using a 30-day time window.
+   6. Train an LSTM model on the training sequences.
+   7. Predict future prices using the trained model on the test set.
+   8. Inverse transform predictions and true values back to actual price scale.
+   9. Evaluate model performance using RMSE, MAE, and R², and compare it to the naive forecast baseline.
 
 ## Project Structure
 
@@ -79,9 +89,9 @@ These metrics are logged and plotted after every experiment.
 Naive Forecast            
 ![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_naive.png "Naive Forecast") 
 Closing Price
-![alt text]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close100.png "Closing Price 100 Epochs")
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close100.png "Closing Price 100 Epochs")
 Multiple Features
-![alt text]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_addfeature.png "Multiple Features")
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_addfeature.png "Multiple Features")
 Closing Price with 200 Epochs
 ![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close200.png "Closing Price 200 Epochs")
 
