@@ -76,13 +76,21 @@ A naive forecast (predicting next day's price as today’s) was used as a baseli
 These metrics are logged and plotted after every experiment.
 
 ## Result
-Naive Forecast            |  Closing Price
-:-------------------------:|:-------------------------:
-![](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_naive.png)  |  ![]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close100.png))
+Naive Forecast            
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_naive.png "Naive Forecast") 
+Closing Price
+![alt text]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close100.png "Closing Price 100 Epochs"))
+Multiple Features
+![alt text]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_addfeature.png "Multiple Features"))
+Closing Price with 200 Epochs
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close200.png "Closing Price 200 Epochs")
 
-Multiple Features         |  Closing Price with 200 Epochs
-:-------------------------:|:-------------------------:
-![]((https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_addfeature.png))  |  ![](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/prediction_plot_close200.png)
+
+MLFlow Features Screenshot
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/features.png "Features")
+
+MLFlow Result Comparison Screenshot
+![alt text](https://github.com/theis19/Stock-Price-Prediction-using-LSTM-and-MLFlow/blob/main/result.png "Comparison Result")
 
 
 ## ✅ How to Run
